@@ -1,44 +1,104 @@
 h1{
-    text-align: center;
-    color: #7286d3;
-    font-family:"Sofia",sans-serif;
+    text-align: left;
+    color: #6096b4;
+    font-family:"Courier New",monospace;
     font-size: 50px;
+    font-weight: 1000;
+}
+.subheading{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"Courier New",monospace;
+    color:black;
 }
 
 body{
-    background-image: url('img3.jpg');
+    background: white;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 41%, rgba(115,109,117,0.9048723897911833) 73%, rgba(0,0,0,0.8183867296918768) 100%);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
 }
 
-hyper{
-    align-items:right;
-    padding: 100px;
-    font-size: 20px;
-}
-group1{
-    align-items:center;
-    display:flex;
-    justify-content:center;
-    padding: 10px;
-}
-text1{
-    padding: 50px;
-    align-items: left;
-    width: 800px;
-    background-color:#EFE0FF;
-}
-t3{
-    font-weight: bold;
-    font-size: 20px;
-}
+/*buttons*/
 button{
-    border-style: round;
-    border-color:#7286d3;
-    color:white;
+    border-radius:50%;
+    border-color:#6096B4;
+    color:#6096b4;
     padding: 5px;
     text-align:center;
     display:inline-block;
     font-size:15px;
+    font-family:"Courier New",monospace;
+}
+.button2{/*hyperlink*/
+    align-items:left;
+    font-size: 17px;
+    margin-top: 20px;
+    padding:8px;
+    border:none;
+    border-radius:0%;
+    color:black;
+    font-weight:bold;
+    font-family:"Courier New",monospace;
+}
+
+/*containers*/
+.group1{
+    text-align:center;
+    padding: 20px;
+    margin:auto;
+}
+.group2{ /*portfolio*/
+    margin:auto;
+    justify-content:center;
+    padding: 20px;
+    width: 75%;
+}
+.group3{/*qualifications*/
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+}
+.group4{/*style 1*/
+    /*display:-webkit-inline-flex;*/
+    display:-webkit-inline-box;
+}
+
+/*text styling*/
+.text1{ /*index*/
+    padding: 20px;
+    width: 700px;
+    color: white;
+    background-color: #6096b4;
+    font-size:18px;
+    margin:auto;
+}
+.text2{/*qual*/
+    padding:10px;
+    background-color:#bdcdd6;
+    border-style: inset;
+    border-width: medium;
+    text-align:left;
+}
+.text3{/*service*/
+    padding:10px;
+    align-items:center;
+    background-color:white;
+    text-align:left;
+    width:400px;
+    color:#6096b4;
+    border-color:#bdcdd6;
+    border-width:thick;
+    border-style:solid;
+}
+.text4{/*portfolio*/
+    padding:20px;
+    text-align:left;
+    border-color: white;
+    background-color:#a6c2d8;
+    border-style: double;
+    border-width:thick;
+    display:block;
 }

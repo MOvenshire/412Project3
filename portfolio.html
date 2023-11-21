@@ -2,22 +2,104 @@
 <html>
     <head>
         <title>Portfolio</title>
-        <link rel="stylesheet" type = "text/css" href="style.css"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link id="mainStyleSheet" rel="stylesheet" type = "text/css" href="style2.css"></link>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unbounded">
     </head>
 
     <body>
-        <hyper>
-            <a href = "index.html">Home</a>  | 
-            <a href = "portfolio.html">Portfolio</a>  |
-            <a href = "qual.html">Qualifiications</a>  |
-            <a href = "service.html">Service</a>  |
-            <a href = "ai.html">AI</a>
-        </hyper>
+        <a href = "index.html"><button class = "button button2">Home</button></a> |
+        <a href = "portfolio.html"><button class = "button button2">Portfolio</button></a>  |
+        <a href = "qual.html"><button class = "button button2">Qualifications</button></a>  |
+        <a href = "service.html"><button class = "button button2">Service</button></a>  |
+        <a href = "ai.html"><button class = "button button2">AI</button></a> |
+        <button onclick="toggleStyleSheet()" class="button button2">Toggle Style</button>
 
-        <h1>Portfolio</h1>
-
-
-
+        <h1>Technical Portfolio</h1>
+        <div class = group2>
+            <div class = text4>
+                <img src="images/desktop.png" alt="Desktop icon" width = 100px>
+                <p>
+                    <div class = subheading>
+                        2021 Summer Internship for <a href = https://www.l3harris.com/about-us><div class = subheading>L3Harris Technologies:</div></a>
+                        <p>
+                            Wireless Programs Group
+                        </p>
+                    </div>
+                    I began with a maintenance project for a database viewer using Java. 
+                    However, a software migration of a different project meant that I had to switch to a C# based user interaction update. 
+                    I had never used C# before but welcomed the challenge and was able to complete the task which included formal design review, implementation, and code review before merging with main. 
+                    This was a great opportunity for me to practice tracing other people's code and learn the importance of documentaiton at every step of the development process. 
+                </p>
+                <p>
+                    Some software used:
+                    <ul>
+                        <li>Jira for task management</li>
+                        <li>VS code</li>
+                        <li>BitBucket for git version control</li>
+                        <li>Jenkins for testing pipeline. </li>
+                    </ul>
+                </p>
+            </div>
+            <div class = text4>
+                <img src="images/wire.png" alt="Wire icon" width = 100px>
+                <p>
+                    <div class = subheading>
+                        2022 Summer Internship for L3harris Technologies:
+                        <p>
+                            <a href = https://www.l3harris.com/agile-development-group><div class = subheading>Agile Development Group</div></a>
+                        </p>
+                    </div>
+                    The primary project for the last 6 weeks of my internship was integration of an entirely new radio system on an unmanned aerial vehicle sensor processor software system in C++. I sent commands that set values like customized ip address, baud rate, power level, time, date. 
+                    Each mentioned command required following process:
+                <ol>
+                    <li>write to the serial port and change the radio into program mode</li>
+                    <li>reading from the serial port</li>
+                    <li>parse the resposne to confirm the radio mode</li>
+                    <li>send the appropiate command with careful mind to radio internal command line interface (CLI) syntax</li>
+                    <li>writing and reading to return to normal mode</li>
+                    <li>writing the test command and parsing the response read to ensure the relevant command was properly sent</li>
+                </ol>
+                    There was a significant amount of testing involved to determine that all values were properly set and any issues could be fixed by the program if a certain command was not properly sent. 
+                    In my testing and refactoring stage I was able to improve the setup time by about 50% and remove thousands of lines of code. My code flew before the end of my internship. 
+                </p>
+            </div>
+            
+            <div class = text4>
+                <img src="images/shell.png" alt="Shell icon" width = 100px>
+                <p>
+                    <div class = subheading>
+                        <p>
+                            2022 Texas A&M University Class Project
+                        </p>
+                    </div>
+                    Create a custom Linux shell nicknamed "Aggie Shell" to complete the following by running commands as child processes:
+                    <ul>
+                        <li>Basic commands</li>
+                        <li>Commands in pipeline</li>
+                        <li>File input/output redirection</li>
+                        <li>Multi piped commands with redirection</li>
+                        <li>Background processes</li>
+                        <li>Directory handling</li>
+                    </ul>
+                </p>
+                <p>
+                    Github link not available based on Aggie Honor Code that "An Aggie does not lie, cheat, or steal or tolerate those who do."
+                </p>
+            </div>
+        </div>
+        <!-- OPTIONS TO ADD MORE STUFF
+        <div class = text4>
+            <img src="images/gitlab.png" alt="GitLab icon" width = 100px>
+            <p>
+                GitLab server update and templating of 4 projects. Rebuilding toolchains with docker. write YML build test deploy
+            </p>
+        </div>
+        <div class = text4>
+            <img src="images/l3.jpg" alt="L3Harris" width = 100px>
+            <p>
+                kinda torn on if I wanted to use this picture or use only icons 
+            </p>
+        </div>-->
+        <script src="functions.js"></script>
     </body>
 </html>

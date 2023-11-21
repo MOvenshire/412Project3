@@ -2,25 +2,98 @@
 <html>
     <head>
         <title>Qualifications</title>
-        <link rel="stylesheet" type = "text/css" href="style.css"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link id="mainStyleSheet" rel="stylesheet" type = "text/css" href="style2.css"></link>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unbounded">
     </head>
 
     <body>
-        <hyper>
-            <a href = "index.html">Home</a>  | 
-            <a href = "portfolio.html">Portfolio</a>  |
-            <a href = "qual.html">Qualifiications</a>  |
-            <a href = "service.html">Service</a>  |
-            <a href = "ai.html">AI</a>
-        </hyper>
+        <a href = "index.html"><button class = "button button2">Home</button></a> |
+        <a href = "portfolio.html"><button class = "button button2">Portfolio</button></a>  |
+        <a href = "qual.html"><button class = "button button2">Qualifications</button></a>  |
+        <a href = "service.html"><button class = "button button2">Service</button></a>  |
+        <a href = "ai.html"><button class = "button button2">AI</button></a> |
+        <button onclick="toggleStyleSheet()" class="button button2">Toggle Style</button>
         
-        <h1>Qualifications
-            <p>
-                <iframe src= "Resume.pdf" width =70% height = 700>Resume</iframe> 
-            </p>
-        
+        <h1>
+            Qualifications
         </h1>
-
+        <body>
+            <p>
+                <div class = group3>
+                    <iframe src = "https://drive.google.com/file/d/1JYD7Aiv3F28aJGV39XdeaACuKKUUmtap/preview" title = "My Resume" width = 50% height = 500px align="center">Resume</iframe>
+            </p>
+            <div class = group1>
+                <div class = text2>
+                    <div class = subheading>
+                        Skills    
+                    </div>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Agile development</li>
+                        <li>Communication</li>
+                        <li>Administration</li>
+                        <li>Limited C, Assembly, and Verilog</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class = subheading>
+                        Interest Items
+                    </div>
+                    <details>
+                        <summary>
+                            Cybersecurity
+                        </summary>
+                        <div class = text2>
+                            With the growth of data collection, protecting data from theft and damage becomes even more important.
+                        </div>
+                    </details>
+                    <details>
+                        <summary>
+                            Unmanned aerial vehicles
+                        </summary>
+                        <div class = text2>
+                            As I gained experience with UAVs in my internship, I became very interested in the countless applications of drones. 
+                        </div>
+                    </details>
+                    <details>
+                        <summary>
+                            Embedded technology and testing
+                        </summary>
+                        <div class = text2>
+                            Given my major coursework in electrical engineering and computer science, understanding all sides of software and hardware is very appealing to me. 
+                        </div>
+                    </details>
+                    <details>
+                        <summary>
+                            Software integration on hardware
+                        </summary>
+                        <div class = text2>
+                            Similar to the points above, this is an interest item because of the variety of use cases and exciting challenges.
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div style="position:fixed; bottom:20px;" class = subheading>
+                <details>
+                    <summary>
+                        Relevant Coursework
+                    </summary>
+                    <div class = text2 style="font-size:15px; font-family:Arial; font-weight:normal;">
+                        <ul>
+                            <li>Data structures and algorithms</li>
+                            <li>Intro to computer systems</li>
+                            <li>Programming Studio</li>
+                            <li>Electrical circuit theory</li>
+                            <li>Electronics</li>
+                            <li>Intro to digital system design</li>
+                            <li>Computer architecture and design</li>
+                            <li>Digital integrated circuit design</li>
+                        </ul>
+                        
+                    </div>
+                </details>
+            </div>
+        <script src="functions.js"></script>
     </body>
 </html>

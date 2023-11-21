@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+    color: #674188;
+    font-family:"Unbounded",sans-serif;
+    font-size: 50px;
+}
+.subheading{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"Unbounded";
+    color:#674188;
+}
+body{
+    background-image: url('images/img3.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family: Arial, sans-serif;
+}
+
+/*buttons*/
+button{
+    border-style: inset;
+    border-width:medium;
+    border-color:#b7b78a;
+    color:#674188;
+    padding: 5px;
+    text-align:center;
+    display:inline-block;
+    font-size:15px;
+    font-family:"Unbounded",sans-serif;
+}
+.button2{/*hyperlink*/
+    align-items:right;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family:"Unbounded",sans-serif;
+    border:none;
+    background-color:white;
+}
+
+/*containers*/
+.group1{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+}
+.group2{/*portfolio*/
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+}
+.group3{/*qualifications*/
+    margin:auto;
+    text-align:center;
+    display:flex;
+    justify-content:left;
+}
+.group4{/*service*/
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+}
+.text1{ /*index*/
+    padding: 20px;
+    width: 700px;
+    align-items: left;
+    background-color: #f7efe5;
+    color: #674188;
+}
+.text2{/*qual*/
+    padding:10px;
+    text-align:left;
+    background-color:#b7b78a;
+    color:#f7efe5;
+    width:auto;
+    height:auto;
+    border-style: inset;
+    border-width: medium;
+}
+.text3{/*service*/
+    padding:40px;
+    align-items:center;
+    background-color:white;
+    width:600px;
+    border-color:#b7b78a;
+    border-width:medium;
+    border-style:double;
+    color:#674188;
+}
+.text4{/*portfolio*/
+    padding:40px;
+    text-align:left;
+    border-color:#b7b78a;
+    background-color:white;
+    color:#b7b78d;
+    width: 33%;
+    height: auto;
+    border-style: double;
+    border-width:thick;
+    font-size:17.5px;
+}
+

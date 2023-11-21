@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marissa Ovenshire - Computer Engineering Major at Texas A&M</title>
+    <button>
+      <a href="index.html">Back to Homepage</a>
+    </button>
+    <style>
+      body {
+        background: linear-gradient(to bottom, white, grey);
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-top: 50px;
+        text-align: center;
+        color: #5a5a5a;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 50px;
+        text-align: center;
+        color: #5a5a5a;
+        max-width: 600px;
+      }
+      .computer-engineering {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        color: #5a5a5a;
+        background-color:white;
+      }
+      .about-me{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        color:black;
+      }
+      .shape {
+        position:relative;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid skyblue;
+        margin-top: 50px;
+        animation: triangle-move 2s infinite;
+      }
+      footer{
+        color:black;
+        background-color:skyblue;
+      }
+      @keyframes triangle-move {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Marissa Ovenshire</h1>
+      <h2>Computer Engineering Major at Texas A&M University</h2>
+    </header>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>I am currently pursuing my computer engineering degree at Texas A&M University, one of the largest and most prestigious universities in the United States. As a student here, I have had the opportunity to be a part of numerous organizations and activities that have helped me grow both personally and professionally.</p>
+      <p>One such organization that I am involved in is the Society of Women Engineers (SWE), which is a community dedicated to empowering women in the field of engineering. As a member, I have had the chance to attend workshops, networking events, and participate in various community outreach programs.</p>
+      <p>I am also a member of the Class Councils, where I work with a team of students to plan events and activities for my class. This has allowed me to develop my leadership skills and work with people from diverse backgrounds.</p>
+      <p>In addition to my academics and extracurricular activities, I have also had the opportunity to gain real-world experience through two software internships at L3Harris Technologies. L3Harris is a leading global defense and aerospace company that provides innovative solutions for customers around the world.</p>
+    </div>
+    <div class ="computer-engineering">
+      <div class="shape"></div>
+      <h2>What is Computer Engineering?</h2>
+      <p>Computer engineering is a field that combines principles from both computer science and electrical engineering. It involves the design and development of computer systems and networks, as well as the creation of software and hardware components that are used in these systems.</p>
+      <p>As a computer engineering major, I have the opportunity to study a wide range of subjects including algorithms, data structures, computer organization, programming languages, and electronics. This broad education prepares me for a variety of careers in the technology industry, including software development, hardware design, and network administration.</p>
+    </div>
+    <footer>
+      <p>This page was created by ChatGPT</p>
+      <p>Initial prompt:Use html and css to create a page for me, Marissa Ovenshire. Use 1st person. I am a computer engineering major at Texas A&M. Include some shapes and TAMU/ computer history. Explain what computer engineering is. I also participate in SWE and Class Councils. Add brief description of SWE. make it professional but add little animation. include button back to homepage at index.html
+      </p>
+    </footer>
+  </body>
+  </html>
