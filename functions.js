@@ -32,6 +32,6 @@ window.onload = function(){
   var element = document.getElementById('mainStyleSheet');
 
   // 2 (c) replace href attribute of html element.
-  element.setAttribute('href', styleName);
+  element.setAttribute('href', "style2.css");
   
 }
